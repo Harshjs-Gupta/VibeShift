@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@font-face {
+  font-family: 'Organical';
+  src: url('./fonts/OrganicalPersonalUse.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MouldyCheese';
+  src: url('./fonts/MouldyCheeseRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "MouldyCheese", Helvetica, sans-serif;
+}
+
+.happyBg{
+  background-image: url("../assets/happyBg2.avif");
+  background-size: cover;
+  background-position: center;
+}
+.sadBg{
+  /* background: linear-gradient(to bottom, #7d7b7b, #4d4c4c); */
+  background-image: url("../assets/sadBg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.angerBg{
+  background: linear-gradient(to bottom, #f06464, #f73636);
+  background-image: url("../assets/angerBg.avif");
+  background-size: cover;
+  background-position: center;
+}
+.surprisedBg{
+  background-image: url("../assets/surprisedBg.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+.neutralBg{
+  background-image: url("../assets/neutralBg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.mood-wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  max-width: 300px;
+}
