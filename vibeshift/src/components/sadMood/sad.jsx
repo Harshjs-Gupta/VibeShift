@@ -12,6 +12,7 @@ export default function Sad() {
           <p>There are moments when I wish I could roll back the clock and take all the sadness</p>
           <p> away, but I have the feeling that if I did, the joy would be gone as well.</p>
         </div>
+        <audio src="/audio/sad.mp3" type="audio/mp3" autoPlay loop></audio>
       </div>
     </div>
   )

@@ -14,6 +14,7 @@ export default function Surprised() {
           
         </div>
       </div>
+      <audio src="/audio/surprised.mp3" type="audio/mp3" autoPlay loop></audio>
     </div>
   )
 }

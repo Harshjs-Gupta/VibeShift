@@ -1,6 +1,8 @@
-import React from 'react'
+"use client"
+// import React, { useEffect } from 'react'
 import smiley from "@/assets/images/smiley.png";
 import Image from 'next/image';
+// import gsap from 'gsap';
 
 export default function Happy() {
   return (
@@ -12,6 +14,7 @@ export default function Happy() {
           <p>Smile in the mirror. Do that every morning and you&apos;ll</p>
           <p>start to see a big difference in your life.</p>
         </div>
+        <audio src="/audio/happy.mp3" type="audio/mp3" autoPlay loop></audio>
       </div>
     </div>
   )

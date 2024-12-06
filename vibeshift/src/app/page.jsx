@@ -90,8 +90,8 @@ const FaceRecognition = () => {
     // GSAP animation
     gsap.fromTo(
       moodRef.current,
-      { scale: 0, opacity: 0, duration: 1 },
-      { scale: 1, opacity: 1, duration: 1, ease: "power3.out" }
+      { scale: 0 },
+      { scale: 1, duration: 1 }
     );
   }, [currentMood]);
 
@@ -115,9 +115,9 @@ const FaceRecognition = () => {
           transform: "translateX(-50%)",
         }}
       >
-        {currentMood}
+       {currentMood}
       </div>
-      <MoodWrapper mood={currentMood} ref={moodRef}/>
+      <MoodWrapper mood={currentMood}/>
     </div>
   );
 };

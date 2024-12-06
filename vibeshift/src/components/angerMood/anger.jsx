@@ -12,6 +12,7 @@ export default function Anger() {
         <p>&quot;Anger is an acid that can do more harm to the vessel in which it is stored </p>
         <p> than to anything on which it is poured.&quot; Mark Twain.</p>
       </div>
+      <audio src="/audio/angry.mp3" type="audio/mp3" autoPlay loop></audio>
     </div>
   </div>
   )
