@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "face-api.js": "^0.22.2",
+    "framer-motion": "^12.6.2",
     "gsap": "^3.12.5",
+    "html2canvas": "^1.4.1",
     "next": "15.0.3",
     "prettier-plugin-tailwindcss": "^0.6.9",
     "react": "19.0.0-rc-66855b96-20241106",
